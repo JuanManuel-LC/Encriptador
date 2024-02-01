@@ -31,7 +31,6 @@ function encriptar() {
       textEncriptado += textArea[i];
     }
   }
-
   mostrarTexto(textEncriptado);
 }
 
@@ -68,7 +67,6 @@ function desencriptar(){
       textDesencriptado += textArea[i];
     }
   }
-
   mostrarTexto(textDesencriptado)
 }
 
