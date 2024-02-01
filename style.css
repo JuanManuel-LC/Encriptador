@@ -1,0 +1,137 @@
+body {
+    background-color: #F3F5FC;
+}
+
+header {
+    margin: 40px 0 0 40px;
+}
+
+.caja-principal {
+    display: flex;
+    width: 100%;
+    height: 740px;
+}
+
+.caja-input-botones {
+    background-color: #F3F5FC;
+    width: 50%;
+    height: 600px;
+    margin: 0 0 0 20%;
+}
+
+
+.cajatexto {
+    display: block;
+    background-color: #f3f5fc;
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+    color: #0A3871;
+    height: 90%;
+    width: 76%;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 40px;
+}
+
+.caja-input-botones img {
+    display: inline-block;
+    vertical-align: middle; /* Ajusta la alineación vertical según tus necesidades */
+    margin-right: 5px;
+}
+
+.limites {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 10px;
+
+}
+
+.botones-e-d {
+    display: flex;
+}
+
+.encriptar, .desencriptar {
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    width: 40%;
+    margin-left: 10px;
+    border: 1px solid #0A3871;
+    border-radius: 15px;
+}
+
+.encriptar {
+    background-color: #0A3871;
+    color: #f3f5fc;
+}
+
+.encriptar:hover {
+    transform: scale(1.04);
+    transition: 0.2s;
+}
+
+.desencriptar {
+    background-color: #f3f5fc;
+    font-weight: bolder;
+    color: #0A3871;
+}
+
+.desencriptar:hover {
+    transform: scale(1.04);
+    transition: 0.2s;
+}
+
+
+
+/* Lado derecho */
+.caja-texto-encriptado {
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    padding: 20px 0px;
+    box-shadow: 14px 24px 32px -10px rgba(0, 0, 0, 0.3); 
+    border-radius: 15px
+}
+
+.caja-texto-encriptado img {
+    height: 250px;
+    margin: 40% 0 0 5%;
+}
+
+.mensaje-1 {
+    font-size: 21px;
+    font-family: "Noto Sanas", sans-serif;
+    font-weight: bold;
+}
+
+.mensaje-2 {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 40px;
+    font-size: 12px;
+    font-family: "Noto Sanas", sans-serif;
+}
+
+#encri-desencrip {
+    width: 90%;
+    height: 87%;
+    font-family: "Noto Sans", sans-serif;
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    display: none;
+
+}
+
+.boton-copiar {
+    border: 1px solid rgba(10, 56, 113, 0.7);
+    margin: 20px 20px 20px;
+    border-radius: 15px;
+    font-family: "Noto Sans", sans-serif;
+    color: #0A3871;
+    display: none;
+}
+
+.boton-copiar:hover {
+    transform: scale(1.04);
+    transition: 0.2s;
+}
